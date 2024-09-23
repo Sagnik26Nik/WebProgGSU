@@ -1,0 +1,80 @@
+/* Basic styling */
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+}
+
+#intro img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.zebra {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Link hover effect */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: lightblue;
+}
+
+footer a:hover {
+    color: yellow;
+}
